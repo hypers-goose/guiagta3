@@ -6,6 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="329dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="560dp"
+        android:fontFamily="@font/pricedow"
+        android:text="@string/textView"
+        android:textAlignment="center"
+        android:textColor="#7E7E7E"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <Button
         android:id="@+id/button2"
         android:layout_width="140dp"
@@ -14,7 +30,9 @@
         android:layout_marginTop="66dp"
         android:layout_marginEnd="51dp"
         android:layout_marginBottom="620dp"
+        android:fontFamily="@font/pricedow"
         android:text="@string/button"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button3"
@@ -35,5 +53,13 @@
         app:layout_constraintEnd_toStartOf="@+id/button2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="542dp"
+        android:layout_height="993dp"
+        app:srcCompat="@drawable/BackgroundImage"
+        tools:layout_editor_absoluteX="-66dp"
+        tools:layout_editor_absoluteY="-131dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

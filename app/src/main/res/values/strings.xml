@@ -2,4 +2,6 @@
     <string name="app_name">guia gta 3</string>
     <string name="button">secundarios</string>
     <string name="principal">principais</string>
+    <string name="textView">personagens secundarios</string>
+
 </resources>
