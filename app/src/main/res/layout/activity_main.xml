@@ -6,6 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="BackgroundImage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.587"
+        app:srcCompat="@drawable/BackgroundImage" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="329dp"
@@ -13,10 +26,11 @@
         android:layout_marginStart="59dp"
         android:layout_marginEnd="23dp"
         android:layout_marginBottom="560dp"
+        android:background="#9AA7B2"
         android:fontFamily="@font/pricedow"
         android:text="@string/textView"
         android:textAlignment="center"
-        android:textColor="#7E7E7E"
+        android:textColor="#000000"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,6 +44,7 @@
         android:layout_marginTop="66dp"
         android:layout_marginEnd="51dp"
         android:layout_marginBottom="620dp"
+        android:backgroundTint="#545454"
         android:fontFamily="@font/pricedow"
         android:text="@string/button"
         android:textSize="20sp"
@@ -46,6 +61,7 @@
         android:layout_marginTop="66dp"
         android:layout_marginEnd="33dp"
         android:layout_marginBottom="620dp"
+        android:backgroundTint="#545454"
         android:fontFamily="@font/pricedow"
         android:text="@string/principal"
         android:textSize="24sp"
@@ -54,12 +70,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="542dp"
-        android:layout_height="993dp"
-        app:srcCompat="@drawable/BackgroundImage"
-        tools:layout_editor_absoluteX="-66dp"
-        tools:layout_editor_absoluteY="-131dp" />
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="475dp"
+        android:layout_height="38dp"
+        android:background="#545454"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="48dp"
+        android:layout_height="38dp"
+        android:backgroundTint="#545454"
+        app:icon="@android:drawable/ic_dialog_map"
+        app:iconGravity="start|end"
+        app:iconSize="25.5dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
