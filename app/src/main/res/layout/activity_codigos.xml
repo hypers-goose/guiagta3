@@ -10,65 +10,20 @@
         android:id="@+id/imageView"
         android:layout_width="639dp"
         android:layout_height="1024dp"
-        android:contentDescription="backgroundimage"
+        android:contentDescription="@string/backgroundimage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/backgroundimage" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="329dp"
-        android:layout_height="24dp"
-        android:layout_marginTop="310dp"
-        android:background="#9AA7B2"
-        android:fontFamily="@font/pricedow"
-        android:text="@string/textView"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="167dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="36dp"
-        android:backgroundTint="#545454"
-        android:fontFamily="@font/pricedow"
-        android:text="@string/principal"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
-        app:layout_constraintHorizontal_bias="0.274"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="167dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="16dp"
-        android:backgroundTint="#545454"
-        android:cursorVisible="false"
-        android:fontFamily="@font/pricedow"
-        android:text="@string/button"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
-
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="475dp"
         android:layout_height="38dp"
-        android:layout_marginBottom="36dp"
         android:background="#545454"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
