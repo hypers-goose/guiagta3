@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GuiaGta3">
+
         <activity
-            android:name=".MainActivity"
+            android:name=".activity_home"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,9 +19,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".activity_personagens"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".activity_mapa"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".activity_codigos"
+            android:exported="true">
+        </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
     </application>
 
 </manifest>

@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".activity_personagens">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView_Background"
         android:layout_width="639dp"
         android:layout_height="1024dp"
         android:contentDescription="@string/backgroundimage"
@@ -17,51 +17,70 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/backgroundimage" />
 
+    <Button
+        android:id="@+id/button_pc"
+        android:layout_width="103dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="532dp"
+        android:fontFamily="@font/pricedow"
+        android:text="@string/button_pc"
+        android:textSize="24sp"
+        app:backgroundTint="#373737"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.993"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_xbox"
+        android:layout_width="89dp"
+        android:layout_height="76dp"
+        android:layout_marginBottom="532dp"
+        android:fontFamily="@font/pricedow"
+        android:text="@string/button_xbox"
+        android:textSize="24sp"
+        app:backgroundTint="#373737"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.618"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_ps"
+        android:layout_width="166dp"
+        android:layout_height="76dp"
+        android:layout_marginBottom="532dp"
+        android:fontFamily="@font/pricedow"
+        android:text="@string/button_ps"
+        android:textSize="24sp"
+        app:backgroundTint="#373737"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_codigos_codigos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="616dp"
+        android:fontFamily="@font/pricedow"
+        android:text="@string/textView_codigos_codigos"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="475dp"
-        android:layout_height="38dp"
-        android:background="#545454"
+        android:id="@+id/toolbar_codigos"
+        android:layout_width="524dp"
+        android:layout_height="45dp"
+        android:background="#373737"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="48dp"
-        android:layout_height="37dp"
-        android:backgroundTint="#545454"
-        android:isScrollContainer="false"
-        app:icon="@android:drawable/ic_dialog_map"
-        app:iconGravity="textStart"
-        app:iconSize="25.5dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.046"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="48dp"
-        android:layout_height="37dp"
-        android:backgroundTint="#545454"
-        android:text="2"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/button"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="48dp"
-        android:layout_height="37dp"
-        android:layout_marginStart="36dp"
-        android:backgroundTint="#545454"
-        android:text="3"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/button"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

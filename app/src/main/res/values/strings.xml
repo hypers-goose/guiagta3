@@ -1,9 +1,26 @@
 <resources>
     <string name="app_name">guia gta 3</string>
-    <string name="button">secundarios</string>
-    <string name="principal">principais</string>
-    <string name="textView">personagens secundarios</string>
+
+
+    <!--activity home-->
+    <string name="button_personagens_home">personagens</string>
+    <string name="button_mapa_home">mapa</string>
+    <string name="button_codigos_home">códigos</string>
+
+    <!--activity personagens-->
+    <string name="button_principais_personagens">principais</string>
+    <string name="button_secundarios_personagens">secundarios</string>
+    <string name="textView_secundarios_personagens">personagens secundarios</string>
     <string name="backgroundimage">backgroundimage</string>
-    <string name="textView">personagens secundarios</string>
+
+    <!--activity mapa-->
+    <!--activity codigos-->
+    <string name="button_ps">Playstation</string>
+    <string name="button_xbox">Xbox</string>
+    <string name="button_pc">PC</string>
+    <string name="textView_codigos_codigos">Códigos</string>
+
+
+
 
 </resources>
