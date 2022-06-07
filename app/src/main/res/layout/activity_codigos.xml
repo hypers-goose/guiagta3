@@ -17,6 +17,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/backgroundimage" />
 
+    <ImageView
+        android:id="@+id/imageView_BackgroundWhite"
+        android:layout_width="426dp"
+        android:layout_height="475dp"
+        android:layout_marginTop="58dp"
+        android:alpha="0.4"
+        android:background="#636363"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_pc"
+        app:srcCompat="@android:drawable/screen_background_light" />
+
     <Button
         android:id="@+id/button_pc"
         android:layout_width="103dp"
@@ -63,13 +75,27 @@
         android:id="@+id/textView_codigos_codigos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="616dp"
+        android:layout_marginBottom="628dp"
         android:fontFamily="@font/pricedow"
         android:text="@string/textView_codigos_codigos"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/white"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_cheats_codigos"
+        android:layout_width="390dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="388dp"
+        android:fontFamily="@font/pricedow"
+        android:text="@string/textView_cheats_codigos"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.761"
         app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.Toolbar
@@ -82,5 +108,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_cheats2_codigos"
+        android:layout_width="413dp"
+        android:layout_height="153dp"
+        android:layout_marginBottom="232dp"
+        android:alpha="1"
+        android:text="@string/textView_cheats2_codigos"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
