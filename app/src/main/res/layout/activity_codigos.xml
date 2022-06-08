@@ -117,7 +117,8 @@
         android:alpha="1"
         android:text="@string/textView_cheats2_codigos"
         android:textColor="#000000"
-        android:textSize="20sp"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
